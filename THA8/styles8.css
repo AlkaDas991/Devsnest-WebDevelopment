@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.frame{
+#frame{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -20,12 +20,21 @@
     width: 20px;
     height: 20px;
     float: left;
+    /* outline: 2px solid rgb(182, 221, 255,0.25); */
     border: 2px solid rgb(182, 221, 255,0.25);
     border-left: 0;
     border-bottom: 0;
     cursor: pointer;
 }
 .selected {
+    width: 20px;
+    height: 20px;
+    float: left;
+    /* outline: 2px solid rgb(182, 221, 255,0.25); */
+    border: 2px solid rgb(182, 221, 255,0.25);
+    border-left: 0;
+    border-bottom: 0;
+    cursor: pointer;
     background-color: #fff;
     border: 2px solid #fff;
 }
